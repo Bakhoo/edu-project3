@@ -10,6 +10,9 @@ body {
   background-image:url(../img/bgimg.png),url(../img/bgimg2.png);
   background-repeat:repeat,no-repeat;
   background-position:center 10px;
+  p{
+    margin: 0;
+  }
 }
 .pln{
   padding-left: 0!important;
@@ -681,6 +684,7 @@ body {
 
           
           .vid{
+            padding: 5px 0;
             display: block;
             flex:1 1 0;
             margin-right: 10px;
